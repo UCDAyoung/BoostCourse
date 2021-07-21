@@ -46,3 +46,16 @@ https://www.boostcourse.org/mo326/joinLectures/12966
     - UIKit, Foundation 
 <li> 오토 레이아웃 
 
+---
+# Project 1
+### 회원가입 화면 구현 
+
+### outline 
+< 기획 ><br> 
+     회원가입 화면 UI/UX 를  사용자 입장에서 생각하며 구성해보려고 한다.<br>
+< 집중해야할 포인트 ><br>
+1. 네비게이션 인터페이스와 모달을 이용하여 화면전환에 대해 공부한다.<br> 
+2. 여러화면에서 공유할 데이터를 어떻게 관리해야할지 <br> 
+3. 디자인패턴을 활용하여 코드를 작성할 것 같다. 디자인패턴에 대한 이해도를 높인다. <br>
+< 새로 공부할 내용 ><br>
+<img width="309" alt="스크린샷 2021-07-21 오후 11 56 18" src="https://user-images.githubusercontent.com/70427427/126510665-cf061a3d-c5e7-49df-accd-ebb79b2176ff.png">
