@@ -47,7 +47,7 @@ https://www.boostcourse.org/mo326/joinLectures/12966
 <li> 오토 레이아웃 
 
 ---
-# Project 1
+# Project 2
 ### 회원가입 화면 구현 
 
 ### outline 
