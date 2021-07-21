@@ -28,8 +28,21 @@ https://www.boostcourse.org/mo326/joinLectures/12966
      1.1 AV Audioplayer 클래스 <br>
 2. Timer 클래스 <br>
 
+<strong> 디자인패턴 </strong> <br>
+< 디자인패턴의 중요성 >
+1. 코드를 재사용하기에 용이하다고 한다. 아직은 와닿지 않지만, 틀을 약속하고 코드를 작성해놓은 것이기에 코드를 재사용하고, 리팩토링하기 편리할 것 같다. 
+< 디자인 패턴 분류 기준 >
+1. 목적 <br>
+     1.1 생성 <br>
+     1.2 구조 <br>
+     1.3 행위 <br>
+2. 범위 <br>
+     2.1 클래스 <br>
+     2.2 객체 <br> 
+
+
 <strong> 추가 공부내용 </strong>
-<li> CoCoa Touch 
-    -UIKit, Foundation 
+<li> CoCoa Touch 최상위 프레임워크 
+    - UIKit, Foundation 
 <li> 오토 레이아웃 
-<li> 디자인패턴
+
