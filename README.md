@@ -20,8 +20,8 @@ https://www.boostcourse.org/mo326/joinLectures/12966
 - Thread 1: "[~~ setValue:forUndefinedKey:]: this class is not key value coding-compliant~~ " <br>
 : 이미 스토리보드에서 만든 클래스와 UI와 연결을 시킨 상태에서  코드를 ~~제대로 수정하지 않았을 경우~~ 발생한다. <br>
       * 제대로 수정? <br>
-    <&nbsp>1.refactor 없이 수정하기 <br>
-    <&nbsp>2.코드에서 수정 후 스토리보드 Connect inspector에서 수정해주기 <br>
+  1.refactor 없이 수정하기 <br>
+  2.코드에서 수정 후 스토리보드 Connect inspector에서 수정해주기 <br>
 
 <strong> 사용한 프레임워크 및 클래스 </strong> <br>
 1. AVFoundation <br>
