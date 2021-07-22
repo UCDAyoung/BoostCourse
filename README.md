@@ -62,16 +62,27 @@ https://www.boostcourse.org/mo326/joinLectures/12966
 
 ---
      
-## Navigation Interface 
+###  #Navigation Interface 
      
      
-  ### #특징 
+#### #특징 
 - Navigation Interface는 Navigation Controller로 구현된다.
-- 이 Navigation Controller는 1. 컨텐트 뷰 2. 컨트롤러 뷰(네비게이션바) 이 두 가지 뷰를 컨트롤한다.
+- 이 Navigation Controller는 1. 컨텐트 뷰 2. 컨트롤러 뷰(네비게이션바) 이 두 가지 뷰를 띄운다. 
 - push, pop으로 추가되고 삭제되는 스택구조로 관리된다. 
 - 스택의 가장 최상위 뷰가 화면에 나타난다. 
 - 가장 최하위에 있는 뷰를 루트 뷰라고 하는데 루트 뷰는 pop되지 않는다. 
 
-### #Navigation Interface 구성 방법 2가지 <br>
-     - 뷰 컨트롤러
-     - 코드 
+#### #Navigation Interface 구성 방법 2가지 <br>
+- 뷰 컨트롤러
+- 코드 
+     
+### #Modal 
+
+#### #Navigation Interface와 Modal의 차이점 <br>
+1.Navigation Interface <br>
+     1.1 push/pop으로 뷰 추가 및 삭제 <br>
+     1.2 정보의 흐름, 임시화면 말고 계속해서 띄어놓아야 하는 화면을 구성할 때  <br>
+2.Modal <br>
+     1.1 present/dismiss로 뷰 추가 및 삭제<br>
+     1.2 임시적인 화면, 팝업 창 같이 잠깐 띄울 화면을 구성할 때<br>
+     
