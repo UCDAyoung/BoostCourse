@@ -58,4 +58,20 @@ https://www.boostcourse.org/mo326/joinLectures/12966
 2. 여러화면에서 공유할 데이터를 어떻게 관리해야할지 <br> 
 3. 디자인패턴을 활용하여 코드를 작성할 것 같다. 디자인패턴에 대한 이해도를 높인다. <br>
 < 새로 공부할 내용 ><br>
-<img width="309" alt="스크린샷 2021-07-21 오후 11 56 18" src="https://user-images.githubusercontent.com/70427427/126510665-cf061a3d-c5e7-49df-accd-ebb79b2176ff.png">
+<img width="309" alt="스크린샷 2021-07-21 오후 11 56 18" src="https://user-images.githubusercontent.com/70427427/126510665-cf061a3d-c5e7-49df-accd-ebb79b2176ff.png"><br>
+
+---
+     
+## Navigation Interface 
+     
+     
+  ### #특징 
+- Navigation Interface는 Navigation Controller로 구현된다.
+- 이 Navigation Controller는 1. 컨텐트 뷰 2. 컨트롤러 뷰(네비게이션바) 이 두 가지 뷰를 컨트롤한다.
+- push, pop으로 추가되고 삭제되는 스택구조로 관리된다. 
+- 스택의 가장 최상위 뷰가 화면에 나타난다. 
+- 가장 최하위에 있는 뷰를 루트 뷰라고 하는데 루트 뷰는 pop되지 않는다. 
+
+### #Navigation Interface 구성 방법 2가지 <br>
+     - 뷰 컨트롤러
+     - 코드 
