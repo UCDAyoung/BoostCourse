@@ -80,9 +80,26 @@ https://www.boostcourse.org/mo326/joinLectures/12966
 
 #### Navigation Interface와 Modal의 차이점 <br>
 1.Navigation Interface <br>
-     1.1 push/pop으로 뷰 추가 및 삭제 <br>
-     1.2 정보의 흐름, 임시화면 말고 계속해서 띄어놓아야 하는 화면을 구성할 때  <br>
+       1.1 push/pop으로 뷰 추가 및 삭제 <br>
+       1.2 정보의 흐름, 임시화면 말고 계속해서 띄어놓아야 하는 화면을 구성할 때  <br>
 2.Modal <br>
-     1.1 present/dismiss로 뷰 추가 및 삭제<br>
-     1.2 임시적인 화면, 팝업 창 같이 잠깐 띄울 화면을 구성할 때<br>
+       1.1 present/dismiss로 뷰 추가 및 삭제<br>
+       1.2 임시적인 화면, 팝업 창 같이 잠깐 띄울 화면을 구성할 때<br>
+ 
+### #뷰의 상태변화 
+ 
      
+뷰의 상태 변화를 메소드를 통해 확인할 수 있다. 활용되는 메소드는 다음과 같다. <br>
+- ViewDidLoad
+- ViewWillAppear
+- ViewDidAppear
+- ViewWillDisappear
+- ViewDidDisappear
+- subView?에 대해 공부해야함 
+     
+     
+나중에 이와 같이 변환되는 메소드를 통해 사용할 수 있는 게 있다고 한다. <br> 
+     
+     
+<img width="694" alt="스크린샷 2021-07-22 오후 10 59 52" src="https://user-images.githubusercontent.com/70427427/126651705-40e69aae-0b80-469b-a040-9c554b0250e3.png"><br>
+
