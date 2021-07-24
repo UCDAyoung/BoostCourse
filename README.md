@@ -103,3 +103,13 @@ https://www.boostcourse.org/mo326/joinLectures/12966
      
 <img width="694" alt="스크린샷 2021-07-22 오후 10 59 52" src="https://user-images.githubusercontent.com/70427427/126651705-40e69aae-0b80-469b-a040-9c554b0250e3.png"><br>
 
+### #Delegation 디자인패턴 
+아직 와닿지 않음. 
+
+### #Singleton 디자인패턴 
+데이터를 받을 때마다 인스턴스를 생성하는 것이 아닌 한 인스턴스에 저장해놓고 공유하여 데이터를 사용하는 방식?<br>
+- static 을 이용하여 인스턴스를 저장할 프로퍼티를 만들어야함. e.g !<br>
+     [Uploading 스크린샷 2021-07-24 오후 3.33.51.png…]()
+- 타입 프로퍼티이기에 직접 타입에 접근하는 방법으로 접근하면 됨. 
+
+
