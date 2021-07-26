@@ -54,15 +54,15 @@ https://www.boostcourse.org/mo326/joinLectures/12966
 < 기획 ><br> 
      회원가입 화면 UI/UX 를  사용자 입장에서 생각하며 구성해보려고 한다.<br>
 < 집중해야할 포인트 ><br>
-1. 네비게이션 인터페이스와 모달을 이용하여 화면전환에 대해 공부한다.<br> 
-2. 여러화면에서 공유할 데이터를 어떻게 관리해야할지 <br> 
+1. 화면 전환 - 네비게이션 인터페이스 / 모달을 이용하는 두 가지 방법에 대해 배웠다. <br> 
+2. 여러화면에서 공유할 데이터를 어떻게 관리해야할지 -> 싱글톤 ? <br>  
 3. 디자인패턴을 활용하여 코드를 작성할 것 같다. 디자인패턴에 대한 이해도를 높인다. <br>
-< 새로 공부할 내용 ><br>
+< 공부할 내용 ><br>
 <img width="309" alt="스크린샷 2021-07-21 오후 11 56 18" src="https://user-images.githubusercontent.com/70427427/126510665-cf061a3d-c5e7-49df-accd-ebb79b2176ff.png"><br>
 
 ---
      
-###  #Navigation Interface 
+##  #Navigation Interface 
      
      
 #### 특징 
@@ -76,9 +76,11 @@ https://www.boostcourse.org/mo326/joinLectures/12966
 - 뷰 컨트롤러
 - 코드 
      
-### #Modal 
+## #Modal 
 
-#### Navigation Interface와 Modal의 차이점 <br>
+### Navigation Interface와 Modal의 차이점 
+  
+     
 1.Navigation Interface <br>
        1.1 push/pop으로 뷰 추가 및 삭제 <br>
        1.2 정보의 흐름, 임시화면 말고 계속해서 띄어놓아야 하는 화면을 구성할 때  <br>
@@ -86,28 +88,30 @@ https://www.boostcourse.org/mo326/joinLectures/12966
        1.1 present/dismiss로 뷰 추가 및 삭제<br>
        1.2 임시적인 화면, 팝업 창 같이 잠깐 띄울 화면을 구성할 때<br>
  
-### #뷰의 상태변화 
- 
-     
+## #뷰의 상태변화 메소드 
+      
 뷰의 상태 변화를 메소드를 통해 확인할 수 있다. 활용되는 메소드는 다음과 같다. <br>
+문서를 읽어보면 어떨 때 어떤 메소드를 이용할 지 알 수 있다. 아직은 와닿지 않으므로, 반드시 후에 읽어보자 <br>
+subView?에 대해서도 공부해야함 <br>
+     
 - ViewDidLoad
 - ViewWillAppear
 - ViewDidAppear
 - ViewWillDisappear
 - ViewDidDisappear
-- subView?에 대해 공부해야함 
-     
-     
-나중에 이와 같이 변환되는 메소드를 통해 사용할 수 있는 게 있다고 한다. <br> 
+ 
      
      
 <img width="694" alt="스크린샷 2021-07-22 오후 10 59 52" src="https://user-images.githubusercontent.com/70427427/126651705-40e69aae-0b80-469b-a040-9c554b0250e3.png"><br>
+## #디자인 패턴 
+     
+### Delegation 디자인패턴 
+해당 뷰에 delegate프로토콜을 적용시켜 컨테이너 자체에 delegate해서 사용하는 방식? 
 
-### #Delegation 디자인패턴 
-아직 와닿지 않음. 
-
-### #Singleton 디자인패턴 
-데이터를 받을 때마다 인스턴스를 생성하는 것이 아닌 한 인스턴스에 저장해놓고 공유하여 데이터를 사용하는 방식?<br>
+### Singleton 디자인패턴 
+데이터를 받을 때마다 인스턴스를 생성하는 것이 아닌 한 인스턴스에 저장해놓고 공유하여서 데이터를 저장하고 사용하는 방식?<br>
 - static 을 이용하여 인스턴스를 저장할 타입 프로퍼티를 만들어야 함.타입 프로퍼티이기에 직접 타입에 접근하는 방법으로 접근하면 됨. 
 
+## #Gesture Recognizer
+손가락 제스쳐에 따른 이벤트를 활용하는 방법
 
